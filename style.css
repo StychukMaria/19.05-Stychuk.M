@@ -1,0 +1,78 @@
+body{
+	background-color: lightblue
+}
+h1, h2{
+	text-align: center;
+}
+.connection{
+	text-align: right;
+	list-style-type:none;
+}
+ul{
+	font-family: Arial; 
+	font-size: 18px;
+}
+nav ul{
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+nav a{
+	background-color: white;
+	color: black;
+	padding: 16px;
+	border-radius: 5px;
+	border: 2px solid lightgray;
+}
+li > ul{
+	display: none;
+}
+nav ul li{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+li:hover > ul{
+	position: absolute;
+	display: block;
+}
+nav > ul > li > ul > li{
+	padding-top: 10px;
+}
+nav li a:hover{
+	background-color: lightgrey;
+	transition: 0.5s linear;
+}
+a{
+	text-decoration: none;
+}
+.we{
+	position: relative;
+	height: 500px;
+	weight: 500px;
+	display: flex;
+	flex-direction: row;
+}
+.we > img{
+	position: absolute;
+	right: 200px;
+}
+.we > .wetext, why.we{
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	text-align: left;
+}
+table{
+	text-align: center;
+	background-color: lightviolet;
+}
+th{
+	font-family: Arial; 
+	font-size: 16px;
+}
+h2{
+	color: darkviolet;
+}
+pre{
+	font-size: 16px; 
+}
